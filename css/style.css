@@ -40,7 +40,7 @@
 
 header {
   background-image: url(../images/header_bg.png);
-  padding: 70px 80px;
+  padding-block: 70px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -107,7 +107,6 @@ header {
 
 .header_left p {
   margin-block-end: 32px;
-
   color: #00252e;
   font-size: 18px;
   line-height: 27px;
@@ -308,9 +307,10 @@ section.flx {
 }
 .ready {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  padding-block: 55px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%) translateY(-68%);
@@ -339,7 +339,7 @@ h2 {
   font-style: normal;
   font-weight: 600;
   line-height: 60px;
-  margin-block-end: 32px;
+  /* margin-block-end: 32px; */
 }
 .ready a {
   color: #fff;
